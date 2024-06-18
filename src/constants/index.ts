@@ -54,7 +54,7 @@ const productsItems= [
     {
       pdtName: "Maize",
       pdtImage: [maize1],
-      content: "Maize, also known as corn, is a healthy grain that is rich in fiber, vitamins, minerals, and antioxidants 1. It is a versatile ingredient that can be used in a variety of dishes, ranging from soups and salads to casseroles and desserts. Here are some reasons why you should consider incorporating maize into your diet"
+      content: "Maize, also known as corn, is a healthy grain that is rich in fiber, vitamins, minerals, and antioxidants 1.It is a versatile ingredient that can be used in a variety of dishes, ranging from soups and salads to casseroles and desserts. Here are some reasons why you should consider incorporating maize into your diet"
     },
     {
       pdtName: "Tomatoes",

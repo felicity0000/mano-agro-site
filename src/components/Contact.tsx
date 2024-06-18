@@ -34,13 +34,13 @@ const Contact: React.FC = () => {
     <Element name="contact">
       <div
         id="contact"
-        className="flex flex-col px-48 py-16 gap-8 items-center"
+        className="flex flex-col md:px-48 py-16 gap-8 px-4 md:items-center"
       >
         {/* Contact Form */}
         <div className="py-8">
-          <h2 className="text-green-600 font-semibold text-4xl">Contact Us</h2>
+          <h2 className="text-green-600 font-semibold text-xl md:text-4xl">Contact Us</h2>
         </div>
-        <div className="md:w-1/2 bg-white p-8 rounded-lg shadow-2xl">
+        <div className="md:w-1/2 bg-white p-4 rounded-lg shadow-2xl">
           <h4 className="text-green-600 font-semibold text-sm">
             HAVE QUESTIONS?
           </h4>
@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
             <div>
               <button
                 type="submit"
-                className="inline-flex justify-center py-2 px-4 border border-transparent shadow-lg text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="inline-flex justify-center py-2 px-4 border border-transparent shadow-lg text-sm font-medium rounded-md text-white w-full bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 Send
               </button>
