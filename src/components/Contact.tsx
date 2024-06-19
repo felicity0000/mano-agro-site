@@ -116,7 +116,7 @@ const Contact: React.FC = () => {
               </p>
             </div>
           </div>
-          <div className="mb-6 flex justify-start">
+          {/* <div className="mb-6 flex justify-start">
             <MdLocationOn size={24} className="text-green-600 mr-3" />
             <div>
               <h3 className="text-green-600 text-xl font-normal">Location</h3>
@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
                 123 Main Street, Anytown, USA
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="mb-6 flex justify-start">
             <MdEmail size={24} className="text-green-600 mr-3" />
             <div>
