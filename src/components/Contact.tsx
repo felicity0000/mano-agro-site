@@ -116,15 +116,15 @@ const Contact: React.FC = () => {
               </p>
             </div>
           </div>
-          {/* <div className="mb-6 flex justify-start">
+          <div className="mb-6 flex justify-start">
             <MdLocationOn size={24} className="text-green-600 mr-3" />
             <div>
               <h3 className="text-green-600 text-xl font-normal">Location</h3>
               <p className="text-gray-700 text-sm">
-                123 Main Street, Anytown, USA
+                Uganda
               </p>
             </div>
-          </div> */}
+          </div>
           <div className="mb-6 flex justify-start">
             <MdEmail size={24} className="text-green-600 mr-3" />
             <div>
