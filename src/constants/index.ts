@@ -6,7 +6,7 @@ import greenPaper1 from "../assets/greenPaper1.jpg";
 import walkingTractor from "../assets/walkingTractor.jpg";
 import twoWheeled from  "../assets/twoWheeled.png"
 import ploughing from "../assets/ploughing.jpg";
-
+import field from "../assets/field.jpg";
 // About's section content
 const LeftAboutContent = [
   {
@@ -25,14 +25,12 @@ const RightAboutContent = [
   {
     title: "MORE ABOUT US",
     content:
-      "Mano agro in puts is a company registered in Uganda involved importation and distribution of agricultural implements ie fertilisers, pesticides, insecticides, agro machinery, fungicides.",
+      "Mano agro inputs is a company registered in Uganda involved importation and distribution of agricultural implements i.e. fertilisers, pesticides, insecticides, agro machinery, fungicides.",
   },
   {
     title: "OUR SOCIAL IMPACT",
     content: [
-      "Mano agro inputs distributes quality products to all its clients around the world.",
-      "Mano agro inputs envisions a time when every farmer acquires the right skills and implements to use in his garden to attain huge harvest.",
-      'Mano skills farmers with the right agronomic practices. With its slogan " bridging agro technologies,  mano agro inputs seeks to build and enhance cost effective practices among farmers that lead to high yields especially in resource constrained areas.',
+      "Mano agro inputs distributes quality products to all its clients around the world. Mano agro inputs envisions a time when every farmer acquires the right skills and implements to use in his garden to attain huge harvest. Mano skills farmers with the right agronomic practices. With its slogan bridging agro technologies, mano agro inputs seeks to build and enhance cost effective practices among farmers that lead to high yields especially in resource constrained areas."
     ],
   },
 ];
@@ -65,6 +63,11 @@ const productsItems= [
       pdtName: "Green Paper",
       pdtImage: [greenPaper1],
       content: "Green paper is a type of paper that is made from recycled materials. It is an environmentally friendly alternative to traditional paper, which is made from virgin wood pulp. Green paper is produced using less energy and water than traditional paper, and it generates less waste. It is also biodegradable and can be recycled multiple times. Green paper is available in a variety of colors and textures, making it suitable for a wide range of applications, from printing and packaging to arts and crafts."
+    },
+    {
+      pdtName: "Crop Field",
+      pdtImage: [field],
+      content: "A field is an area of land that is used for agricultural purposes, such as growing crops or raising livestock. Fields are typically large, open spaces that are divided into smaller plots for planting different crops. They are an essential part of the agricultural landscape and play a crucial role in feeding the world's population. Fields can be found in rural and urban areas, and they are cultivated using a variety of farming techniques and equipment."
     }
   ];
 

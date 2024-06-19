@@ -14,7 +14,7 @@ const Equipment = () => {
   };
 
   return (
-    <div className="flex flex-col md:items-center px-4 pt-16 md:px-48">
+    <div id="equipment" className="flex flex-col md:items-center px-4 pt-16 md:px-48">
       <div className="py-8">
         <h2 className="text-green-600 font-semibold text-xl md:text-4xl">
           Our Farm Equipment

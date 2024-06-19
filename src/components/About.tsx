@@ -5,7 +5,7 @@ return (
       <div className="py-8">
         <h2 className="text-green-600 font-semibold text-xl md:text-4xl">About Us</h2>
       </div>
-      <div className="flex flex-col md:flex-row md:items-center">
+      <div className="flex flex-col gap-10 md:flex-row md:items-center">
       <div className="md:w-1/2 p-1 space-y-4">
         {LeftAboutContent.map((section, index) => (
           <div key={index}>
