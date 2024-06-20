@@ -38,7 +38,9 @@ const Contact: React.FC = () => {
       >
         {/* Contact Form */}
         <div className="py-8">
-          <h2 className="text-green-600 font-semibold text-xl md:text-4xl">Contact Us</h2>
+          <h2 className="text-green-600 font-semibold text-xl md:text-4xl">
+            Contact Us
+          </h2>
         </div>
         <div className="md:w-1/2 bg-white p-4 rounded-lg shadow-2xl">
           <h4 className="text-green-600 font-semibold text-sm">
@@ -120,9 +122,7 @@ const Contact: React.FC = () => {
             <MdLocationOn size={24} className="text-green-600 mr-3" />
             <div>
               <h3 className="text-green-600 text-xl font-normal">Location</h3>
-              <p className="text-gray-700 text-sm">
-                Uganda
-              </p>
+              <p className="text-gray-700 text-sm">Uganda</p>
             </div>
           </div>
           <div className="mb-6 flex justify-start">

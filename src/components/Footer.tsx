@@ -12,21 +12,15 @@ const Footer = () => {
       </span>
       <span>
         {" "}
-        <a
-          href="#hero"
-          className="block font-semibold text-sm text-black"
-        >
+        <a href="#hero" className="block font-semibold text-sm text-black">
           ENTERPRISE LIMITED
         </a>
       </span>
 
-
       <a
         href=""
         className="text-sm md:text-md font-poppins hover:text-indigo-500"
-      >
-
-      </a>
+      ></a>
       <p className="text-xs mt-2 text-black">
         © MANO AGRO INPUTS ENTERPRISE LIMITED {new Date().getFullYear()}. All
         rights reserved

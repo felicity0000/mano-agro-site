@@ -10,7 +10,7 @@ return (
         {LeftAboutContent.map((section, index) => (
           <div key={index}>
             <h4 className="text-green-600 font-semibold text-base md:text-2xl justify-start">{section.title}</h4>
-            <p className="text-lg text-gray-700" text-justify>{section.content}</p>
+            <p className="text-lg text-gray-700 tracking-tighter">{section.content}</p>
           </div>
         ))}
       </div>
@@ -18,7 +18,7 @@ return (
         {RightAboutContent.map((section, index) => (
           <div key={index}>
             <h4 className="text-green-600 font-semibold text-base md:text-2xl">{section.title}</h4>
-            <p className="text-lg text-gray-700 text-justify">{section.content}</p>
+            <p className="text-lg text-gray-700 text-justify tracking-tighter">{section.content}</p>
           </div>
         ))}
       </div>

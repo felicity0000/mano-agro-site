@@ -10,20 +10,51 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-          <h1 className="text-green-600 font-medium text-base text-center">MANO AGRO INPUTS</h1>
-          <h3 className="text-center text-xs text-gray-800 font-medium">ENTERPRISE LIMITED</h3>
-          <p className="text-xs text-yellow-600 italic text-center">-Bridging Agro Technologies-</p>
+          <h1 className="text-green-600 font-medium text-base text-center">
+            MANO AGRO INPUTS
+          </h1>
+          <h3 className="text-center text-xs text-gray-800 font-medium">
+            ENTERPRISE LIMITED
+          </h3>
+          <p className="text-xs text-yellow-600 italic text-center">
+            -Bridging Agro Technologies-
+          </p>
         </div>
       </div>
       <div className="space-x-4 hidden md:block">
-        <a href="#hero" className="font-medium text-gray-800 hover:text-green-600">Home</a>
-        <a href="#about" className="font-medium text-gray-800 hover:text-green-600">About</a>
-        <a href="#products" className="font-medium text-gray-800 hover:text-green-600">Products</a>
-        <a href="#equipment" className="font-medium text-gray-800 hover:text-green-600">Equipment</a>
-        <a href="#contact" className="font-medium text-gray-800 hover:text-green-600">Contact</a>
+        <a
+          href="#hero"
+          className="font-medium text-gray-800 hover:text-green-600"
+        >
+          Home
+        </a>
+        <a
+          href="#about"
+          className="font-medium text-gray-800 hover:text-green-600"
+        >
+          About
+        </a>
+        <a
+          href="#products"
+          className="font-medium text-gray-800 hover:text-green-600"
+        >
+          Products
+        </a>
+        <a
+          href="#equipment"
+          className="font-medium text-gray-800 hover:text-green-600"
+        >
+          Equipment
+        </a>
+        <a
+          href="#contact"
+          className="font-medium text-gray-800 hover:text-green-600"
+        >
+          Contact
+        </a>
       </div>
       <div className="md:hidden">
-        <MobileNav/>
+        <MobileNav />
       </div>
     </nav>
   );

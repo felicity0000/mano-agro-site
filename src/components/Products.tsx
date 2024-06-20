@@ -44,8 +44,8 @@ const Products = () => {
               <p
                 className={
                   showFullText[index]
-                    ? "text-justify text-sm"
-                    : "text-justify text-sm overflow-ellipsis overflow-hidden h-20"
+                    ? "text-justify text-sm tracking-tighter"
+                    : "text-justify text-sm overflow-ellipsis overflow-hidden h-20 tracking-tighter"
                 }
               >
                 {item.content}
