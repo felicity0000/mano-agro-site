@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
         <div>
           <h1 className="text-green-600 font-medium text-base text-center">MANO AGRO INPUTS</h1>
-          <h3 className="text-center text-xs text-gray-800 font-medium">ENTERPRISES LIMITED</h3>
+          <h3 className="text-center text-xs text-gray-800 font-medium">ENTERPRISE LIMITED</h3>
           <p className="text-xs text-yellow-600 italic text-center">-Bridging Agro Technologies-</p>
         </div>
       </div>

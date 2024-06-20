@@ -16,19 +16,19 @@ const Footer = () => {
           href="#hero"
           className="block font-semibold text-sm text-black"
         >
-          ENTERPRISES LIMITED
+          ENTERPRISE LIMITED
         </a>
       </span>
 
 
       <a
-        href="mailto:anzoejohn@gmail.com"
+        href=""
         className="text-sm md:text-md font-poppins hover:text-indigo-500"
       >
 
       </a>
       <p className="text-xs mt-2 text-black">
-        © MANO AGRO INPUTS ENTERPRISES LIMITED {new Date().getFullYear()}. All
+        © MANO AGRO INPUTS ENTERPRISE LIMITED {new Date().getFullYear()}. All
         rights reserved
       </p>
     </div>
