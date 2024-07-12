@@ -21,34 +21,46 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-      <div className="space-x-4 hidden md:block">
+      <div className="space-x-6 hidden md:block">
         <a
           href="#hero"
-          className="font-medium text-gray-800 hover:text-green-600"
+          className="uppercase font-medium text-gray-800 hover:text-green-600 active:text-green-600 focus:text-green-600 focus:visible"
         >
           Home
         </a>
         <a
           href="#about"
-          className="font-medium text-gray-800 hover:text-green-600"
+          className="uppercase font-medium text-gray-800 hover:text-green-600 active:text-green-600 focus:text-green-600 focus:visible"
         >
           About
         </a>
         <a
-          href="#products"
-          className="font-medium text-gray-800 hover:text-green-600"
+          href="#team"
+          className="uppercase font-medium text-gray-800 hover:text-green-600 active:text-green-600 focus:text-green-600"
         >
-          Products
+          Team
+        </a>
+        <a
+          href="#crops"
+          className="uppercase font-medium text-gray-800 hover:text-green-600 active:text-green-600 focus:text-green-600"
+        >
+          Crops
         </a>
         <a
           href="#equipment"
-          className="font-medium text-gray-800 hover:text-green-600"
+          className="uppercase font-medium text-gray-800 hover:text-green-600 active:text-green-600"
         >
-          Equipment
+          Mechanisation
+        </a>
+        <a
+          href="#networking"
+          className="uppercase font-medium text-gray-800 hover:text-green-600 active:text-green-600"
+        >
+          Networking
         </a>
         <a
           href="#contact"
-          className="font-medium text-gray-800 hover:text-green-600"
+          className="uppercase font-medium text-gray-800 hover:text-green-600 active:text-green-600"
         >
           Contact
         </a>

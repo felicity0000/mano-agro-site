@@ -7,34 +7,46 @@ const MobileNav = () => {
         <Menu className="text-green-600" />
       </SheetTrigger>
       <SheetContent>
-        <div className="flex flex-col space-y-5">
+        <div className="flex flex-col space-y-8">
           <a
             href="#hero"
-            className="font-medium text-gray-800 hover:text-green-600"
+            className="uppercase font-medium text-gray-800 hover:text-green-600"
           >
             Home
           </a>
           <a
             href="#about"
-            className="font-medium text-gray-800 hover:text-green-600"
+            className="uppercase font-medium text-gray-800 hover:text-green-600"
           >
             About
           </a>
           <a
-            href="#products"
-            className="font-medium text-gray-800 hover:text-green-600"
+            href="#team"
+            className="uppercase font-medium text-gray-800 hover:text-green-600"
           >
-            Products
+            team
+          </a>
+          <a
+            href="#crops"
+            className="uppercase font-medium text-gray-800 hover:text-green-600"
+          >
+            crops
           </a>
           <a
             href="#equipment"
-            className="font-medium text-gray-800 hover:text-green-600"
+            className="uppercase font-medium text-gray-800 hover:text-green-600"
           >
-            Equipment
+            mechanisation
+          </a>
+          <a
+            href="#networking"
+            className="uppercase font-medium text-gray-800 hover:text-green-600"
+          >
+            networking
           </a>
           <a
             href="#contact"
-            className="font-medium text-gray-800 hover:text-green-600"
+            className="uppercase font-medium text-gray-800 hover:text-green-600"
           >
             Contact
           </a>

@@ -17,8 +17,11 @@ const Equipment = () => {
     <div id="equipment" className="flex flex-col md:items-center px-4 pt-16 md:px-48">
       <div className="py-8">
         <h2 className="text-green-600 font-semibold text-xl md:text-4xl">
-          Our Farm Equipment
+          MECHANISATION
         </h2>
+      </div>
+      <div className="mb-5">
+        <p className="md:px-20 text-justify tracking-tighter">Our range of mechanization solutions includes Motorized hand-held weeder and slasher/mower, Motorized hand push tractor, Motorized sprayer, Semi-automatic hand push seeder, Semi-automatic hand push and trans plantertailored to the needs of small-scale farmers. By integrating modern technology with traditional farming practices, we empower farmers to increase productivity and improve livelihoods</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {EquipmentItems.map((item, index) => (

@@ -15,12 +15,12 @@ const Products = () => {
 
   return (
     <div
-      id="products"
+      id="crops"
       className="flex flex-col md:items-center px-4 pt-16 md:px-48"
     >
       <div className="py-8">
         <h2 className="text-green-600 font-semibold text-xl md:text-4xl">
-          Our Farm Produce
+          Crops
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

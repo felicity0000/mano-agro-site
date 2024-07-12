@@ -5,6 +5,9 @@ import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Contact from "./components/Contact";
 import Equipment from "./components/Equipment";
+import Impact from "./components/Impact"
+import Networking from "./components/Networking";
+import Team from "./components/Team";
 
 const App = () => {
   return (
@@ -12,8 +15,11 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
+      <Team/>
       <Products/>
       <Equipment/>
+      <Impact/>
+      <Networking/>
       <Contact/>
       <Footer/>
     </div>
