@@ -1,4 +1,4 @@
-import { LeftImpactContent, RightImpactContent } from "../constants/index";
+import { LeftImpactContent} from "../constants/index";
 
 const Impact: React.FC = () => {
   return (
