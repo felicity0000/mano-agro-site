@@ -3,7 +3,6 @@ import company from "../assets/company structure.png";
 const Team = () => {
   return (
     <div
-      id="team"
       className="flex flex-col md:items-center px-4 md:px-48 pt-16"
     >
       <div className="py-8">

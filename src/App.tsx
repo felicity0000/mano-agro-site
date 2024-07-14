@@ -1,28 +1,17 @@
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Products from "./components/Products";
-import Contact from "./components/Contact";
-import Equipment from "./components/Equipment";
-import Impact from "./components/Impact"
-import Networking from "./components/Networking";
-import Team from "./components/Team";
-
+import { Route, Routes } from "react-router-dom"; 
+import HomePage from "./pages/HomePage";
+import Layout from "./layout/Layout";
+import MembersPage from "./pages/MembersPage";
+import MachinePage from "./pages/MachinePage";
+import CropsPage from "./pages/CropsPage";
 const App = () => {
   return (
-    <div className="bg-gray-50 font-poppins">
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Team/>
-      <Products/>
-      <Equipment/>
-      <Impact/>
-      <Networking/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout><HomePage /></Layout>} />
+      <Route path="/team" element={<Layout><MembersPage /></Layout>} />
+      <Route path="/equipment" element={<Layout><MachinePage /></Layout>} />
+      <Route path="/crops" element={<Layout><CropsPage /></Layout>} />
+    </Routes>
   )
 }
 

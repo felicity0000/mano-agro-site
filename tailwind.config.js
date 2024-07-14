@@ -17,6 +17,11 @@ module.exports = {
       },
     },
     extend: {
+      spacing: {
+        'wide': '0.5em',
+        'wider': '1em',
+        'widest': '1.5em',
+      },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },

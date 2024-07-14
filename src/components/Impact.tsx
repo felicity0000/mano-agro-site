@@ -4,7 +4,7 @@ const Impact: React.FC = () => {
   return (
     <div className="flex flex-col md:items-center px-4 md:px-48 pt-16">
       <div className="py-8 w-full">
-        <h2 className="text-green-600 font-semibold text-2xl md:text-4xl text-center">
+        <h2 className="text-green-700 font-semibold text-2xl md:text-4xl text-center">
           IMPACT OF MECHANISATION 
         </h2>
       </div>

@@ -15,7 +15,6 @@ const Products = () => {
 
   return (
     <div
-      id="crops"
       className="flex flex-col md:items-center px-4 pt-16 md:px-48"
     >
       <div className="py-8">

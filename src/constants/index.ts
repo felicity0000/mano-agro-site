@@ -13,6 +13,7 @@ import semiAutoSeedPlanter from "../assets/Manual-Seed-Planter.jpg"
 import Semi from "../assets/Semi-automatic hand push transplanter.png"
 import produce from "../assets/produce.jpg"
 import efficiency from "../assets/efficiency.jpg"
+
 // About's section content
 const LeftAboutContent = [
   {
@@ -32,12 +33,14 @@ const RightAboutContent = [
     title: "VISION",
     content:
       "We envision a future where small-scale farmers in Kiryandongo have access to the resources, knowledge, and support they need to thrive and succeed in agriculture. The company aims to be a leading provider of agricultural inputs and services, driving positive change and sustainable development in the region. By empowering farmers and promoting best practices in agriculture.",
+  
   },
   {
     title: "MISSION",
     content: [
       "To promote sustainable agriculture and rural development in Kiryandongo by providing small-scale farmers with access to high-quality seeds, fertilizers, seedlings, agricultural equipment, and training. The company is committed to fostering innovation, productivity, and profitability in agriculture, while also ensuring environmental sustainability and social development in the communities it serves.",
     ],
+  
   },
   {
     title: "VALUES",
@@ -48,8 +51,10 @@ const RightAboutContent = [
       "Collaboration",
       "Sustainability",
     ],
+  
   },
 ];
+
 
 // Products section content
 const productsItems = [

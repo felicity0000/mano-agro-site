@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import fieldImage1 from "../assets/field.jpg";
 import fieldImage2 from "../assets/maize1.jpg";
 import fieldImage3 from "../assets/coffee2.jpg";
@@ -15,6 +16,9 @@ interface Slide {
 
 const Hero: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [nextImageIndex, setNextImageIndex] = useState(1);
+  const currentImageRef = useRef<HTMLDivElement>(null);
+  const nextImageRef = useRef<HTMLDivElement>(null);
 
   // List of images for slideshow
   const slides: Slide[] = [
@@ -28,27 +32,52 @@ const Hero: React.FC = () => {
   ];
 
   useEffect(() => {
-    // Function to rotate images every 5 seconds
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) =>
-        prevIndex === slides.length - 1 ? 0 : prevIndex + 1
-      );
+      const nextIndex = (currentImageIndex + 1) % slides.length;
+      const newNextIndex = (nextImageIndex + 1) % slides.length;
+
+      if (nextImageRef.current) {
+        nextImageRef.current.style.backgroundImage = `url(${slides[nextIndex].imageUrl})`;
+      }
+
+      const timeline = gsap.timeline({
+        onComplete: () => {
+          setCurrentImageIndex(nextIndex);
+          setNextImageIndex(newNextIndex);
+          if (currentImageRef.current && nextImageRef.current) {
+            gsap.set(currentImageRef.current, { opacity: 1 });
+            gsap.set(nextImageRef.current, { opacity: 0 });
+          }
+        }
+      });
+
+      timeline
+        .to(currentImageRef.current, { opacity: 0, duration: 1 }, 0)
+        .to(nextImageRef.current, { opacity: 1, duration: 1 }, 0);
     }, 3000); // Change image every 3 seconds
 
     return () => clearInterval(interval); // Clean up interval on component unmount
-  }, []);
+  }, [currentImageIndex, nextImageIndex, slides.length]);
 
   return (
-    <div
-      id="hero"
-      className="relative h-screen bg-cover bg-center mb-16"
-      style={{ backgroundImage: `url(${slides[currentImageIndex].imageUrl})` }}
-    >
+    <div id="hero-wrapper" className="relative h-screen overflow-hidden mb-16">
+      <div
+        id="current-hero"
+        ref={currentImageRef}
+        className="absolute inset-0 bg-cover bg-center transition-opacity"
+        style={{ backgroundImage: `url(${slides[currentImageIndex].imageUrl})`, opacity: 1 }}
+      ></div>
+      <div
+        id="next-hero"
+        ref={nextImageRef}
+        className="absolute inset-0 bg-cover bg-center transition-opacity"
+        style={{ backgroundImage: `url(${slides[nextImageIndex].imageUrl})`, opacity: 0 }}
+      ></div>
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full gap-10 px-4 sm:px-6 lg:px-8">
         <h1 className="md:text-5xl font-semibold text-white text-center">
-        Enhancing Small-scale Agriculture 
-        <br />
+          Enhancing Small-scale Agriculture 
+          <br />
         </h1>
         <h2 className="md:text-3xl font-semibold text-white text-center">
           Through Mechanization
