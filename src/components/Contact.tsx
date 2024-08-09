@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
     <Element name="contact">
       <div
         id="contact"
-        className="flex flex-col py-16 gap-8 px-4 md:px-48 md:items-center"
+        className="flex flex-col py-16 gap-8 px-4 md:px-48 md:items-center md:pt-40"
       >
         {/* Contact Form */}
         <div className="py-8">

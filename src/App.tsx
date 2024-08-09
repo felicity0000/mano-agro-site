@@ -1,17 +1,28 @@
-import { Route, Routes } from "react-router-dom"; 
-import HomePage from "./pages/HomePage";
-import Layout from "./layout/Layout";
-import MembersPage from "./pages/MembersPage";
-import MachinePage from "./pages/MachinePage";
-import CropsPage from "./pages/CropsPage";
+import About from "./components/About"
+import Equipment from "./components/Equipment"
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Networking from "./components/Networking"
+import Products from "./components/Products"
+import Team from "./components/Team"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
+import Impact from "./components/Impact"
+
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Layout><HomePage /></Layout>} />
-      <Route path="/team" element={<Layout><MembersPage /></Layout>} />
-      <Route path="/equipment" element={<Layout><MachinePage /></Layout>} />
-      <Route path="/crops" element={<Layout><CropsPage /></Layout>} />
-    </Routes>
+    <div>
+      <Header/>
+      <Hero/>
+      <About/>
+      <Team/>
+      <Products/>
+      <Equipment/>
+      <Impact/>
+      <Networking/>
+      <Contact/>
+      <Footer/>
+    </div>
   )
 }
 

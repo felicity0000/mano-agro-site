@@ -9,7 +9,7 @@ const Networking = () => {
   return (
     <div
       id="networking"
-      className="flex flex-col items-center px-4 md:px-48 pt-16"
+      className="flex flex-col items-center px-4 md:px-48 pt-40"
     >
       <div className="py-8 w-full">
         <h2 className="text-green-700 font-semibold text-2xl md:text-4xl text-center">

@@ -3,7 +3,8 @@ import company from "../assets/company structure.png";
 const Team = () => {
   return (
     <div
-      className="flex flex-col md:items-center px-4 md:px-48 pt-16"
+      id="team"
+      className="flex flex-col md:items-center px-4 md:px-48 pt-40"
     >
       <div className="py-8">
         <h2 className="text-green-600 font-semibold text-xl md:text-4xl">
@@ -44,17 +45,19 @@ const Team = () => {
               Lutooro.
             </p>
             <div className="mb-6 flex justify-start">
-            <MdEmail size={24} className="text-green-600 mr-3" />
-            <div>
-              <h3 className="text-green-600 text-xl font-normal">Email</h3>
-              <p className="text-gray-950  text-sm hover:text-green-500">namomemmanuel@gmail.com</p>
+              <MdEmail size={24} className="text-green-600 mr-3" />
+              <div>
+                <h3 className="text-green-600 text-xl font-normal">Email</h3>
+                <p className="text-gray-950  text-sm hover:text-green-500">
+                  namomemmanuel@gmail.com
+                </p>
+              </div>
             </div>
-          </div>
             <hr className=" border-t-2 border-green-500 my-5" />
             <p className="text-justify tracking-tighter">
-              <strong>Mugide Jane</strong>, a Ugandan national, has a degree in Business
-              Administration (Accounting) from Kyambogo University and has
-              worked as an accounting officer at Duckhill Microfinance. She
+              <strong>Mugide Jane</strong>, a Ugandan national, has a degree in
+              Business Administration (Accounting) from Kyambogo University and
+              has worked as an accounting officer at Duckhill Microfinance. She
               currently works at Mano Agro Inputs and has experience in monetary
               management and budget forecasting. Jane has strong interpersonal,
               communication, computer skills, teamwork, problem-solving,

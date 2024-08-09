@@ -1,11 +1,14 @@
-import { LeftImpactContent} from "../constants/index";
+import { LeftImpactContent } from "../constants/index";
 
 const Impact: React.FC = () => {
   return (
-    <div className="flex flex-col md:items-center px-4 md:px-48 pt-16">
+    <div
+      id="impact"
+      className="flex flex-col md:items-center px-4 md:px-48 pt-40"
+    >
       <div className="py-8 w-full">
         <h2 className="text-green-700 font-semibold text-2xl md:text-4xl text-center">
-          IMPACT OF MECHANISATION 
+          IMPACT OF MECHANISATION
         </h2>
       </div>
       <div className="">
@@ -28,12 +31,9 @@ const Impact: React.FC = () => {
                   />
                 ))}
               </div>
-             
             </div>
           ))}
         </div>
-
-   
       </div>
     </div>
   );

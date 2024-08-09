@@ -4,7 +4,7 @@ import { Eye, Flag, Trees} from "lucide-react";
 const About = () => {
   return (
     <div id="about"
-      className="flex flex-col md:items-center px-4 md:px-48 pt-16"
+      className="flex flex-col md:items-center px-4 md:px-48 md:pt-40"
     >
       <div className="py-8">
         <h2 className="text-green-700 font-bold text-4xl uppercase">

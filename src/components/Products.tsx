@@ -15,7 +15,8 @@ const Products = () => {
 
   return (
     <div
-      className="flex flex-col md:items-center px-4 pt-16 md:px-48"
+      id="crops"
+      className="flex flex-col md:items-center px-4 pt-16 md:px-48 md:pt-40"
     >
       <div className="py-8">
         <h2 className="text-green-600 font-semibold text-xl md:text-4xl">
